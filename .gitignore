@@ -1,0 +1,135 @@
+# =========================
+
+# Archivos del sistema
+
+# =========================
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# =========================
+
+# Logs y temporales
+
+# =========================
+
+*.log
+logs/
+tmp/
+temp/
+cache/
+*.cache
+
+# =========================
+
+# Archivos de entorno y configuración sensible
+
+# =========================
+
+.env
+.env.*
+config.php
+database.php
+db.php
+settings.php
+
+# =========================
+
+# Sesiones PHP
+
+# =========================
+
+sessions/
+*.sess
+
+# =========================
+
+# Archivos subidos por usuarios
+
+# =========================
+
+uploads/
+files/
+storage/
+
+# =========================
+
+# Dependencias Composer
+
+# =========================
+
+vendor/
+composer.lock
+
+# (Si tu proyecto es una librería, puedes comentar composer.lock)
+
+# !composer.lock
+
+# =========================
+
+# Archivos generados por frameworks PHP
+
+# =========================
+
+# Laravel
+
+bootstrap/cache/
+storage/logs/
+storage/framework/
+public/storage
+
+# Symfony
+
+var/cache/
+var/log/
+
+# CodeIgniter
+
+writable/
+
+# =========================
+
+# Archivos de IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# =========================
+
+# Archivos de pruebas
+
+# =========================
+
+phpunit.xml
+phpunit.xml.dist
+coverage/
+tests/_output/
+
+# =========================
+
+# Backups y archivos temporales
+
+# =========================
+
+*.bak
+*.backup
+*.old
+*.tmp
+
+# =========================
+
+# Archivos de sistema operativo
+
+# =========================
+
+*.pid
+*.seed
