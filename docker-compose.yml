@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  web:
+    image: php:7.4-apache
+    container_name: reqti_app
+    volumes:
+      - .:/var/www/html
+    # Configuramos el servidor para que apunte al directorio correcto si es necesario
+    # Por defecto busca en /var/www/html
+    environment:
+      - VIRTUAL_HOST=reqti.dpmc.cl
+      - LETSENCRYPT_HOST=reqti.dpmc.cl
+    networks:
+      - red_produccion
+    restart: always
+
+networks:
+  red_produccion:
+    external: true
